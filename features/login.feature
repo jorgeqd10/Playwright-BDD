@@ -1,7 +1,6 @@
 Feature: Login
     Identify the visitor and store their data
 
-
 Scenario: Successful Login
     Given username and password
     When Log In button clicked
@@ -9,4 +8,5 @@ Scenario: Successful Login
     
     Then go to shopping cart
     Then click on checkout
-    Then enter your info
+   
+    
